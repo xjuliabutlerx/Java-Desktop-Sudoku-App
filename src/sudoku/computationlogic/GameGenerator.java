@@ -10,7 +10,7 @@ import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 public class GameGenerator {
     public static int[][] getNewGameGrid() {
-        return unsolveGame(getSolvedGame())
+        return unsolveGame(getSolvedGame());
     }
 
     private static int[][] unsolveGame(int[][] solvedGame) {
